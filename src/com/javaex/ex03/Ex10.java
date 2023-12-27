@@ -10,6 +10,7 @@ public class Ex10 {
 		System.out.println("1. 자바  2. C  3.C++ 4. 파이썬");
 		System.out.print("과목번호: ");
 		
+		
 		int code = sc.nextInt();
 		
 		switch(code) {
