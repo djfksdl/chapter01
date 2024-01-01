@@ -1,19 +1,41 @@
 package com.javaex.ex04;
 
+import java.util.Scanner;
+
 public class Ex13 {
+
 	public static void main(String[] args) {
-		int i =1;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요 [0이면 종료]");
 		
-		boolean flag = true;
-		
-		while(flag) {
-			if(i>3) {
-				flag = false; // 다음에 못들어가게 함. break는 바로 튕겨나가는데 false에서 만족이 되면 다음줄것까지 다 하고나서 다음에 못들어가게 함. 
-				//break;
-			}
+		do {// 일단 한번은 하고, 
+			int no = sc.nextInt();
+			sum = sum + no;
+			System.out.println(sum);
 			
-			System.out.println(i);
-			i++;
-		}
+		}while(no != 0);  // 0이 아니면 
+			
+			
+			
+//		while(true) {
+//			
+//			int no = sc.nextInt();
+//			if(no==0) {
+//				//더하기
+//				sum = sum + no;
+//				System.out.println(sum);
+//			} else {
+//				System.out.println("종료");
+//				break;
+//			}
+//		}
+//		
+		
+		
+		//입력
+		// break는 switch-case문은 그냥 밑에 탈출을 못함
+		// vs if else문?과는 다른 break다
+		// for은 조건으로 써줘야하고 반복횟수를 알 수 없을때 
 	}
+
 }
