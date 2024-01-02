@@ -7,11 +7,12 @@ public class Ex05 {
 		
 		for(int i =0; i<rArray.length; i++) {
 			rArray[i]= (int)(Math.random()*45)+1;
+			
+		}
+		
+		for(int i = 0; i < rArray.length; i++) {
 			System.out.println(rArray[i]);
 		}
-//		for(int i = 0; i < rArray.length; i++) {
-//			System.out.println(rArray[i]);
-//		}
 
 	}
 

@@ -8,8 +8,11 @@ public class Ex13 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요 [0이면 종료]");
 		
+		int sum = 0;
+		int no;
+		
 		do {// 일단 한번은 하고, 
-			int no = sc.nextInt();
+			no = sc.nextInt();
 			sum = sum + no;
 			System.out.println(sum);
 			
@@ -17,20 +20,20 @@ public class Ex13 {
 			
 			
 			
-//		while(true) {
-//			
-//			int no = sc.nextInt();
-//			if(no==0) {
-//				//더하기
-//				sum = sum + no;
-//				System.out.println(sum);
-//			} else {
-//				System.out.println("종료");
-//				break;
-//			}
-//		}
-//		
-		
+		/*
+		while(true) {
+			int no = sc.nextInt();
+			if(no == 0) {
+				break;	
+			}
+			
+			//더하기
+			sum = sum + no;
+			System.out.println(sum);
+		}
+		*/
+		System.out.println("종료");
+		sc.close();
 		
 		//입력
 		// break는 switch-case문은 그냥 밑에 탈출을 못함

@@ -19,9 +19,10 @@ public class Ex02 {
 		
 		// 반복문으로 줄이기
 		for(int i = 1; i<=6; i++) {
-			no+i = (int)(Math.random()*45)+1;
+//			int no+i = (int)(Math.random()*45)+1;
 			
 		}
+		
 		
 
 	}
