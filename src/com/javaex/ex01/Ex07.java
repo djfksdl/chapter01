@@ -8,9 +8,9 @@ public class Ex07 {
 		System.out.println(var00);
 		
 		//자동형변환
-		int a =3; // 3.0으로 자동 형변환됨 
-		double b = 3.5;
-		double var02 = a+b;
+		int a =3; 
+		double b = 3.5;  
+		double var02 = a+b; //  a= 3.0으로 자동 형변환됨
 		System.out.println(var02);
 
 		//////////////////////////

@@ -10,7 +10,7 @@ public class Ex05 {
 		System.out.println(ch01);
 		System.out.println(ch02);
 		
-		char ch03 = 65; // 65가 A를 해당하는 문자임. 그래서 원래는 한글자 들어가야해서 65라는 두글자가 안들어가는데 이건 코드로 인식해서 나온거임!
+		char ch03 = 65; // 65가 A 해당하는 문자임. 그래서 원래는 한글자 들어가는데 숫자를 넣으면 코드로 인식해서 나온거임!
 		System.out.println(ch03); 
 		
 		char ch04 = '3';

@@ -15,10 +15,10 @@ public class Ex08 {
 		double v04 = (double)5 /(double)4;
 		System.out.println(v04);
 		
-		int v05 = (int)1.3 + (int)1.8;
+		int v05 = (int)1.3 + (int)1.8;//1+1=2
 		System.out.println(v05);
 		
-		int v06 = (int)(1.3 +1.8);
+		int v06 = (int)(1.3 +1.8);//(int)(3.1)
 		System.out.println(v06);
 		
 //		int v07 = (int)1.3 + 1.8;
